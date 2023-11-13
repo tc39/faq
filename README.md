@@ -1,5 +1,4 @@
-Frequently Asked Questions
-==========================
+# TC39 Frequently Asked Questions
 
 This document contains typical responses to questions that are commonly raised about JavaScript language development, both within the community and to the committee via our various discussion platforms. The information in this document is curated by individual TC39 delegates with minimal review and may reflect personal biases; it is not authoritative and has not been endorsed by TC39. Regardless, it may be helpful for those with questions, or at least a handy reference for delegates or anyone else fielding these questions.
 
@@ -16,6 +15,7 @@ Having to maintain multiple versions of the language forever wouldn't actually m
 Browsers are [unwilling to break web pages](https://developer.chrome.com/blog/smooshgate/#why-dont-we-just-keep-the-existing-name-and-break-the-web) for their users, no matter how much you think the developers of those websites deserve it. However, "not breaking the web" does not mean 100% backward compatibility. Backward-incompatible changes *can* be made when the undesirable behaviour is not being relied upon, but the web is very large, which makes it both hard to confidently determine this and unlikely except for very minor or very strange behaviours.
 
 ### Will JavaScript ever get a type system?
+
 No. Types that help the developer (such as those in TypeScript) are not the same types that would help the engine. Parsing type signatures, even just to throw them away when the console is closed, takes valuable time. Enforcing them would take even more time.
 
 ### Will WebAssembly replace JS?
@@ -24,7 +24,7 @@ In the short term, you'll continue to need JS glue code to do many things like i
 
 ### Why do numbers sometimes behave unintuitively?
 
-JavaScript numbers and arithmetic are specified in IEEE-754. See https://0.30000000000000004.com.
+JavaScript numbers and arithmetic are specified in IEEE-754. See <https://0.30000000000000004.com>.
 
 ### Will JavaScript ever add JSX notation?
 
@@ -44,4 +44,4 @@ Proper tail calls (PTCs) are [defined in the specification](https://tc39.es/ecma
 
 ### Why are some things specified in ECMA-262 and others are in WHATWG/W3C specs? How do I know what is where?
 
-ECMA-262 defines a general-purpose programming language which is meant to run in many environments, not just the web. So features that are only relevant to the web will not live in ECMA-262. Additionally, any I/O (including DOM APIs) will not be in ECMA-262. Unfortunately, for general-purpose features that you may be familar with on the web, there is not a good way to know what feature lives in what spec ahead of time. Many of these distinctions are due to outside circumstances, not careful planning. 
+ECMA-262 defines a general-purpose programming language which is meant to run in many environments, not just the web. So features that are only relevant to the web will not live in ECMA-262. Additionally, any I/O (including DOM APIs) will not be in ECMA-262. Unfortunately, for general-purpose features that you may be familar with on the web, there is not a good way to know what feature lives in what spec ahead of time. Many of these distinctions are due to outside circumstances, not careful planning.

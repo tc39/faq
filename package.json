@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint-cli2 '**/*.md' '#node_modules'",
+    "lint:fix": "markdownlint-cli2-fix '**/*.md' '#node_modules'",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.10.0"
+  }
+}
