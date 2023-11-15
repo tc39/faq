@@ -22,6 +22,12 @@ Having to maintain multiple versions of the language forever wouldn't actually m
 
 Browsers are [unwilling to break web pages](https://developer.chrome.com/blog/smooshgate/#why-dont-we-just-keep-the-existing-name-and-break-the-web) for their users, no matter how much you think the developers of those websites deserve it. However, "not breaking the web" does not mean 100% backward compatibility. Backward-incompatible changes *can* be made when the undesirable behaviour is not being relied upon, but the web is very large, which makes it both hard to confidently determine this and unlikely except for very minor or very strange behaviours.
 
+### Will JavaScript ever get a type system?
+
+[Disclaimer: FAQ answers are not endorsed by TC39][]
+
+Types that help the developer (such as those in TypeScript) are not the same types that would help the engine, so a built-in type-checking experience will always provide inferior guarantees compared to what the JavaScript ecosystem is used to. The [type annotations](https://github.com/tc39/proposal-type-annotations) proposal is exploring parsing types with no runtime type-checking, which would be left to other tools.
+
 ### Will WebAssembly replace JS?
 
 [Disclaimer: FAQ answers are not endorsed by TC39][]
