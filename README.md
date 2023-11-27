@@ -4,6 +4,8 @@ This document contains typical responses to questions that are commonly raised a
 
 Anyone may suggest new topics by [opening an issue](https://github.com/tc39/faq/issues/new). Delegates may add new topics by creating a Pull Request.
 
+If a delegate disagrees with one of these topics, it should be removed. It can be re-added if they and the original topic suggester are able to come to agreement on wording.
+
 ## Questions
 
 ### Why not just add a new version and fix all the mistakes?
@@ -13,10 +15,6 @@ Having to maintain multiple versions of the language forever wouldn't actually m
 ### Why don't we just break the web?
 
 Browsers are [unwilling to break web pages](https://developer.chrome.com/blog/smooshgate/#why-dont-we-just-keep-the-existing-name-and-break-the-web) for their users, no matter how much you think the developers of those websites deserve it. However, "not breaking the web" does not mean 100% backward compatibility. Backward-incompatible changes *can* be made when the undesirable behaviour is not being relied upon, but the web is very large, which makes it both hard to confidently determine this and unlikely except for very minor or very strange behaviours.
-
-### Will JavaScript ever get a type system?
-
-No. Types that help the developer (such as those in TypeScript) are not the same types that would help the engine. Parsing type signatures, even just to throw them away when the console is closed, takes valuable time. Enforcing them would take even more time.
 
 ### Will WebAssembly replace JS?
 
