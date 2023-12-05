@@ -26,7 +26,7 @@ Browsers are [unwilling to break web pages](https://developer.chrome.com/blog/sm
 
 [Disclaimer: FAQ answers are not endorsed by TC39][]
 
-Types that help the developer (such as those in TypeScript) are not the same types that would help the engine, so a built-in type-checking experience will always provide inferior guarantees compared to what the JavaScript ecosystem is used to. The [type annotations](https://github.com/tc39/proposal-type-annotations) proposal is exploring parsing types with no runtime type-checking, which would be left to other tools.
+No. Types that help the developer (such as those in TypeScript) are not the same types that would help the engine, so a built-in type-checking experience will always provide inferior guarantees compared to what the JavaScript ecosystem is used to. The [type annotations](https://github.com/tc39/proposal-type-annotations) proposal is exploring parsing types with no runtime type-checking, which would be left to other tools.
 
 ### Will WebAssembly replace JS?
 
