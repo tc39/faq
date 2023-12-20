@@ -56,7 +56,7 @@ No chance. Because it is an interchange format with implementations in nearly ev
 
 [Disclaimer: FAQ answers are not endorsed by TC39][]
 
-Proper tail calls (PTCs) are [defined in the specification](https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-preparefortailcall), but are currently only implemented by JavaScriptCore, the JavaScript engine used in the Safari browser. Other engines have no plans to implement PTCs at the moment. PTCs predate our current process, which would have prevented a situation like this from happening, and will prevent any others from happening in the future.
+Proper tail calls (PTCs) are [defined in the specification](https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-preparefortailcall), but are currently only implemented by JavaScriptCore, the JavaScript engine used in the Safari browser. Other engines have no plans to implement PTCs at the moment. PTCs predate [our current process](https://tc39.es/process-document/), which would have prevented a situation like this from happening, and will prevent any others from happening in the future.
 
 ### Why are some things specified in ECMA-262 and others are in WHATWG/W3C specs? How do I know what is where?
 
