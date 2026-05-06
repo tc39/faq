@@ -80,6 +80,6 @@ In modern, casual usage, JavaScript and ECMAScript are often used interchangeabl
 
 "JavaScript" is not an implementation or engine. Examples of implementations include SpiderMonkey in Firefox, V8 in Chrome, and JavaScriptCore in Safari.
 
-Historically, the first implementation of what became JavaScript was called "Mocha", which was later rewritten and became SpiderMonkey.
+Historically, what became JavaScript began at Netscape under the working name "Mocha". The language was later called "LiveScript" in a Netscape Navigator beta, then renamed "JavaScript" for release. The original Mocha implementation was later rewritten and became SpiderMonkey.
 
 [Disclaimer: FAQ answers are not endorsed by TC39]: #disclaimer
