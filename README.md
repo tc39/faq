@@ -70,4 +70,16 @@ Proper tail calls (PTCs) are [defined in the specification](https://tc39.es/ecma
 
 ECMA-262 defines a general-purpose programming language which is meant to run in many environments, not just the web. So features that are only relevant to the web will not live in ECMA-262. Additionally, any I/O (including DOM APIs) will not be in ECMA-262. Unfortunately, for general-purpose features that you may be familar with on the web, there is not a good way to know what feature lives in what spec ahead of time. Many of these distinctions are due to outside circumstances, not careful planning.
 
+### What is the difference between ECMAScript and JavaScript?
+
+[Disclaimer: FAQ answers are not endorsed by TC39][]
+
+ECMAScript is the standardized language specification, and JavaScript is the common name for the language as implemented in browsers and runtimes.
+
+In modern, casual usage, JavaScript and ECMAScript are often used interchangeably, especially when referring to the core language.
+
+"JavaScript" is not an implementation or engine. Examples of implementations include SpiderMonkey in Firefox, V8 in Chrome, and JavaScriptCore in Safari.
+
+Historically, the first implementation of what became JavaScript was called "Mocha", which was later rewritten and became SpiderMonkey.
+
 [Disclaimer: FAQ answers are not endorsed by TC39]: #disclaimer
